@@ -6,7 +6,6 @@ import {
 
 const Player= new shaka.Player( video.element );
 
-
 async function playContent( content ){
     await Player.unload();
     console.log( content.source );
